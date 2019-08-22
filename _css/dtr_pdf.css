@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*CLASSES*/
+.negrito {
+    font-weight: bold;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+/*IDs*/
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+    text-align: center;
+}
+
+p {
+   font-family: Arial, sans-serif;
+   font-size: 10pt;
+   margin: 0px;
+   color: rgba(0,0,0,1);
+}
+
+table {
+   font-family: Arial, sans-serif;
+   font-size: 9pt;
+   color: rgba(0,0,0,1);
+}
+
+div#asspaciente {
+    display: block;
+    position: relative;
+    display: block;
+    top: 200px;
+}
+div#asspaciente p {
+    font-size: 8pt;
+}
+
+div#assdoutor {
+    display: block;
+    position: absolute;
+    margin-left: 250px;
+    top: 800px;
+}
+
+div#assdoutor p {
+    font-size: 8pt;
+}
+
+div#via{
+    display: block;
+    position: absolute;
+    margin-left: 400px;
+}
+
+div#medicacao{
+    display: block;
+    position: absolute;
+}
+
+table#fornecedor{
+    position: absolute;
+    margin-left: 300px;
+}
+
+/*tamanho de uma folha A4*/
+header {
+    display: block;
+    width: 700px;
+    height: 20px;
+    margin: -30px auto 0px auto ;
+    padding: 0px 10px 10px 10px ;
+    border-bottom: 1px solid #948f8f;
+}
+
+div#pdf {
+    
+    width: 700px;
+    height: 622px;
+    margin: 0px auto 0px auto ;
+    padding: 10px 10px 10px 10px ;
+    /*border: solid 3px black;*/ 
+}
+
+footer {
+    position: absolute;
+    top: 940px;
+    display: block;
+    width: 700px;
+    height: 200px;
+    margin: 0px auto 0px 10px ;
+    border-top: 1px solid #948f8f;
+}
+
+footer p{
+    font-size: 8pt;
+}
+

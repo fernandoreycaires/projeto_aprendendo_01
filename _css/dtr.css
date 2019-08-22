@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/* Inicio da edição do menu em HOMEDRT */
+ul#homedtr {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+ul#homedtr li {
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    padding: 4px ;
+    border: none ;
+    background-color: rgba(0,0,0,.1) ;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in ;
+}
+
+ul#homedtr li:hover {
+    background-color: rgba(0,0,0,.5) ;
+}
+/* Fim da edição do menu lateral*/
+
+/* Configuração do IFRAME em HOMEDRT */
+iframe#framedtr {
+    position: relative;
+    left: 0px;
+    border: none;
+    width: 1200px;
+    height: 720px;
+}
+/* Fim IFRAME em HOME DRT*/
+
+/*EDIÇÃO DA TELA IPACIDTR.PHP - TELA DO PACIENTE APRESENTADO NA TELA DO DOUTOR*/
+div#divBuscaPac{
+    display: block;
+    position: absolute;
+    width: 1225px;
+    height: 720px;
+    background: rgba(0,0,0,.2);
+    top: 0px;
+    left: 0px;
+}
+
+div#divBuscaPac h1{
+    text-align: center;
+}
+
+p#buscapac{
+    position: relative;
+    float: left;
+    left: 500px;
+}
+
+/*EDIÇÃO DA LISTA*/
+
+ul#PacDoc{
+    position: absolute;
+    display: block;
+    float: left;
+    list-style: none;
+    left: 460px;
+    top: 100px;
+}
+
+ul#PacDoc li{
+    margin: 3px;
+}
+
+li#exibirlista{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+/*FIM EDIÇÃO DA TELA IPACIDTR.PHP */
+
+/*EDIÇÃO DA TELA IAGENDADTR */
+
+div#divAgendaDtr{
+    display: block;
+    position: absolute;
+    width: 1225px;
+    height: 720px;
+    background: rgba(0,0,0,.2);
+    top: 0px;
+    left: 0px;
+}
+
+/*CONFIGURAÇÃO DA TABELA EM DTR_PACIENTE*/
+
+div#hist_cli{
+    display: block;
+    position: relative;
+    width: 1185px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.4);
+    padding: 2px 0px 2px 15px ;
+    margin: 5px 0px 2px 1px;
+    
+}
+
+table#hismed {
+    position: relative;
+    width: 1180px;
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: rgba(196,194,194,1);
+}
+
+table#hismed tr#list:hover {
+    background-color: rgba(0,51,102,.5);
+    color: #ffffff;
+}
+
+table#hismed tr#cab{
+    background-color: rgba(0,0,0,.1);
+}
+
+/* EDIÇÃO DA TELA DE EXIBIÇÃO DO DIAGNOSTICO, DIAGNOSTICO_EXIBIR */
+span#ficha{
+    font-size: 25pt;
+    font-weight: bold;
+    
+}
+
+fieldset {
+    border-color: #948f8f;
+}

@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+ul#fotos_home {
+    width: 100%;
+    margin: 0px 0px 0px 95px;
+    padding: 50px 100px 50px 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#fotos_home li {
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin: 13px;
+    border: none ;
+    background-color: rgba(0,0,0,.1) ;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all 0.1s ease-in ;
+}
+
+ul#fotos_home li span {
+    opacity: 0.5;
+    color: #d1d1d1;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,0);
+    line-height: 290px;
+    font-size: 9pt;
+    padding: 5px;
+}
+
+ul#fotos_home li:hover {
+    -webkit-transform: scale(1.4);
+    
+}
+
+ul#fotos_home li:hover span {
+    opacity: 1;
+    color: #0ed3b5;
+}
+
+/* Configuração de cada bloco na pagina HOME */
+
+ul#fotos_home li#clientes {
+    background: url('../_imagens/clientes512x512fundo.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#clientes span {
+    margin-left: 50px;
+}
+
+ul#fotos_home li#clientes:hover {
+    background: url('../_imagens/clientes512x512.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+
+ul#fotos_home li#doutores {
+    background: url('../_imagens/ic_2.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#doutores span {
+    margin-left: 47px;
+}
+
+ul#fotos_home li#doutores:hover {
+    background: url('../_imagens/ic_2h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#calendario {
+    background: url('../_imagens/ic_3.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#calendario span {
+    margin-left: 53px;
+}
+
+ul#fotos_home li#calendario:hover {
+    background: url('../_imagens/ic_3h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#atendimento {
+    background: url('../_imagens/ic_4.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#atendimento span {
+    margin-left: 37px;
+}
+
+ul#fotos_home li#atendimento:hover {
+    background: url('../_imagens/ic_4h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#rh {
+    background: url('../_imagens/ic_5.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#rh span {
+    margin-left: 15px;
+}
+
+
+ ul#fotos_home li#rh:hover {
+    background: url('../_imagens/ic_5h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#adm {
+    background: url('../_imagens/ic_6.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#adm span {
+    margin-left: 28px;
+}
+
+ul#fotos_home li#adm:hover {
+    background: url('../_imagens/ic_6h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#financeiro {
+    background: url('../_imagens/ic_7.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#financeiro span {
+    margin-left: 43px;
+}
+
+ul#fotos_home li#financeiro:hover {
+    background: url('../_imagens/ic_7h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#comercial {
+    background: url('../_imagens/ic_8.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#comercial span {
+    margin-left: 45px;
+}
+
+ul#fotos_home li#comercial:hover {
+    background: url('../_imagens/ic_8h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#sistema {
+    background: url('../_imagens/ic_9.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#sistema span {
+    margin-left: 55px;
+}
+
+ul#fotos_home li#sistema:hover {
+    background: url('../_imagens/ic_9h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#caixa {
+    background: url('../_imagens/ic_11.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#caixa span {
+    margin-left: 60px;
+}
+
+ul#fotos_home li#caixa:hover {
+    background: url('../_imagens/ic_11h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}
+
+ul#fotos_home li#mailing {
+    background: url('../_imagens/ic_10.png') no-repeat;
+    opacity: 0.6;
+    background-position: 50% 50%;
+    background-size: 100px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ul#fotos_home li#mailing span {
+    margin-left: 35px;
+}
+
+ul#fotos_home li#mailing:hover {
+    background: url('../_imagens/ic_10h.png') no-repeat;
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 105px;
+}

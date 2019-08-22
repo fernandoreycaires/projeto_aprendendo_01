@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+p{
+    position: relative;
+    text-align: center;
+}
+
+/* EDIÇÃO DOS LINKS DE FOTOS EXIBIDAS NA TELA DE BOAS VINDAS  */
+ul#acesso {
+    width: 600px;
+    margin: 0px 0px 0px 350px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#acesso li {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 13px;
+    border: none ;
+    background-color: rgba(0,0,0,.1) ;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in ;
+}
+
+ul#acesso li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    line-height: 0px;
+    font-size: 9pt;
+    padding: 5px;
+}
+
+ul#acesso li:hover {
+    -webkit-transform: scale(1.4);
+}
+
+ul#acesso li:hover span {
+    opacity: 1;
+}
+
+/* Configuração de cada bloco na pagina ACESSO */
+ul#acesso li#sistema {
+    background: url('../_imagens/home-filled-building.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ ul#acesso li#sistema:hover {
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+ul#acesso li#alt_pass {
+    background: url('../_imagens/key.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ ul#acesso li#alt_pass:hover {
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+ul#acesso li#sair {
+    background: url('../_imagens/opened-door-aperture.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px;
+    background-color: rgba(0,0,0,.1);
+}
+
+ ul#acesso li#sair:hover {
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}

@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+/*
+****************************
+CORPO 
+****************************
+*/
+html, body {
+    height: 100%;
+    width: 99.5%;
+    background-color: rgb(38, 38, 38);
+    color: rgb(210,210,210);
+    font-family: Arial, sans-serif;
+}
+
+div#corpo {
+    min-height: 100%;
+    width: 99%;
+    position: absolute;
+    
+}
+
+div#dadoscorpo {
+    position: absolute;
+    width: 84%;
+    left: 245px;
+    top: 60px;
+    border: none;
+}
+/*
+****************************
+FIM CORPO 
+****************************
+*/
+
+/*
+****************************
+TELA INICIAL - CORPO 
+****************************
+*/
+ul#dado_inicial{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 100px 50px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#dado_inicial li {
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin: 19px;
+    border: none ;
+    background-color: #3d3d3d ;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all 0.1s ease-in ;
+}
+
+ul#dado_inicial li span#contador {
+    opacity: 1;
+    color: #0ed3b5;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 150px;
+    margin-left: 75px;
+    font-size: 40pt;
+    padding: 5px;
+}
+
+ul#dado_inicial li span#agendado {
+    opacity: 1;
+    color: #0ed3b5;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 230px;
+    margin-left: 5px;
+    font-size: 20pt;
+    padding: 5px;
+}
+
+ul#dado_inicial li span#leadS {
+    opacity: 1;
+    color: #0ed3b5;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 230px;
+    margin-left: 5px;
+    font-size: 20pt;
+    padding: 5px;
+}
+
+ul#dado_inicial li span#leadN {
+    opacity: 1;
+    color: #ff6851;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 230px;
+    margin-left: 5px;
+    font-size: 20pt;
+    padding: 5px;
+}
+
+ul#dado_inicial li span#contadorN {
+    opacity: 1;
+    color: #ff6851;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 150px;
+    margin-left: 75px;
+    font-size: 40pt;
+    padding: 5px;
+}
+
+
+/*
+****************************
+FIM TELA INICIAL - CORPO 
+****************************
+*/
+
+/*   
+************************************
+LOGO
+************************************
+*/
+img#img_logo {
+    margin: 20px 0 0 30px;
+}
+
+/*   
+************************************
+FIM LOGO
+************************************
+*/
+
+/*   
+************************************
+CABEÇALHO
+************************************
+*/
+div#cabecalho{
+    right: 0;
+    display: box;
+    position: absolute;
+    background-color: #3d3d3d;
+    width: 85%;
+    height: 50px;
+}
+
+div#dadoscabecalho div#direito{
+    right: 80px;
+    position: absolute;
+    text-align: right;
+}
+
+div#dadoscabecalho div#esquerdo{
+    left: 10px;
+    position: absolute;
+}
+
+div#cabecalho a {
+   text-decoration: none;
+   color: rgb(210,210,210);
+}
+  
+div#cabecalho a:hover {
+    text-decoration: none;
+    color: #0ed3b5;
+}
+/*   
+************************************
+FIM CABEÇALHO
+************************************
+*/
+
+/*   
+************************************
+RODAPÉ
+************************************
+*/
+
+div#divrodape {
+    background-color: #3d3d3d;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+
+footer#rodape {
+    width: 100%;
+}
+
+footer#rodape a {
+    color: rgb(210,210,210);
+    text-decoration: none;
+      
+}
+  
+footer#rodape a:hover {
+    text-decoration: none;
+    color: #0ed3b5;
+}
+
+/*   
+************************************
+FIM RODAPÉ
+************************************
+*/
+
+/*   
+************************************
+IMAGENS DE PERFIL
+************************************
+*/
+div#imgprofile {
+    width: 150px;
+    height: 150px;
+    margin-left: 12px;
+    background: url('../../_imagens/ic_18.png') no-repeat;
+    background-size: 150px;
+    background-color: rgba(0,0,0,0);
+}
+
+div#imgprofilecabecalho {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    background: url('../../_imagens/ic_18.png') no-repeat;
+    background-size: 50px;
+    background-color: rgba(0,0,0,0);
+}
+/*   
+************************************
+FIM IMAGENS DE PERFIL
+************************************
+*/
+
+
+p {
+   font-family: Arial, sans-serif;
+   font-size: 10pt;
+   color: rgb(210,210,210);
+}
+

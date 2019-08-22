@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/*   
+************************************
+MENU GERAL
+************************************
+*/
+.menu{
+    display: block;
+    position: relative;
+    background-color: #3d3d3d;
+    width: 220px;
+    padding-bottom: 10px; 
+}
+
+.menudiv{
+    width: 80%;
+    margin: 10px 0 0 10%;
+    border-bottom: solid 1px #666666;
+}
+
+.menudiv p{
+    text-align: center;
+    font-size: 9pt;
+}
+
+.botaomenulista{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    text-align: left; 
+    border: none;
+}
+
+.botaomenuperfil{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+    text-align: left; 
+    border: none;
+}
+/*   
+************************************
+FIM MENU GERAL
+************************************
+*/
+/*   
+************************************
+MENU PERFIL
+************************************
+*/
+
+ul#perfildados{
+    list-style: none;
+    width: 300px
+}
+
+ul#perfildados li {
+    float: left;
+    width: 20px;
+    margin: 0 7px 0 7px;
+
+}
+
+ul#perfildados li#perfiledit{
+    background: url('../_imagens/ic_12.png') no-repeat;
+    background-position: left;
+    background-size: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#perfildados li#perfiledit:hover {
+    background: url('../_imagens/ic_12h.png') no-repeat;
+    background-size: 20px;
+    background-color: rgba(0,0,0,0) ;
+}
+
+ul#perfildados li#mensagem{
+    background: url('../_imagens/ic_15.png') no-repeat;
+    background-position: left;
+    background-size: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#perfildados li#mensagem:hover {
+    background: url('../_imagens/ic_15h.png') no-repeat;
+    background-size: 20px;
+    background-color: rgba(0,0,0,0) ;
+}
+
+ul#perfildados li#system{
+    background: url('../_imagens/ic_14.png') no-repeat;
+    background-position: left;
+    background-size: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#perfildados li#system:hover {
+    background: url('../_imagens/ic_14h.png') no-repeat;
+    background-size: 20px;
+    background-color: rgba(0,0,0,0) ;
+}
+
+/*   
+************************************
+MENU LATERAL - LISTA
+************************************
+*/
+ul#listamenu{
+    list-style: none;
+    margin-left: -45px;
+}
+
+ul#listamenu li{
+    margin: 1px;
+    border: none ;
+    background-color: rgba(0,0,0,0) ;
+}
+
+ul#listamenu li:hover{
+    background-color: rgba(0,0,0,.2) ;
+    border-left: solid #0ed3b5 5px;
+}
+
+ul#listamenu li span {
+    opacity: 0.5;
+    color: #d1d1d1;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,0);
+    line-height: 30px;
+    font-size: 8pt;
+    margin-left: 25px;
+}
+
+ul#listamenu li:hover span {
+    opacity: 1;
+    color: #0ed3b5;
+}
+
+ul#listamenu li#atend{
+    background: url('../../_imagens/ic_4.png') no-repeat;
+    background-position: left;
+    background-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#listamenu li#atend:hover {
+    background: url('../../_imagens/ic_4h.png') no-repeat;
+    background-size: 30px;
+    background-color: rgba(0,0,0,.2) ;
+}
+
+ul#listamenu li#pront{
+    background: url('../../_imagens/ic_5.png') no-repeat;
+    background-position: left;
+    background-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#listamenu li#pront:hover {
+    background: url('../../_imagens/ic_5h.png') no-repeat;
+    background-size: 30px;
+    background-color: rgba(0,0,0,.2) ;
+}
+
+ul#listamenu li#agenda{
+    background: url('../../_imagens/ic_3.png') no-repeat;
+    background-position: left;
+    background-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#listamenu li#agenda:hover {
+    background: url('../../_imagens/ic_3h.png') no-repeat;
+    background-size: 30px;
+    background-color: rgba(0,0,0,.2) ;
+}
+
+ul#listamenu li#lead{
+    background: url('../../_imagens/ic_10.png') no-repeat;
+    background-position: left;
+    background-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#listamenu li#lead:hover {
+    background: url('../../_imagens/ic_10h.png') no-repeat;
+    background-size: 30px;
+    background-color: rgba(0,0,0,.2) ;
+}
+ul#listamenu li#leadsint{
+    background: url('../../_imagens/ic_10.png') no-repeat;
+    background-position: left;
+    background-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul#listamenu li#leadsint:hover {
+    background: url('../../_imagens/ic_10r.png') no-repeat;
+    background-size: 30px;
+    background-color: rgba(0,0,0,.2) ;
+    color: #f97263;
+}

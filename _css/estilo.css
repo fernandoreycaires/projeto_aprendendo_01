@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+body {
+    /*
+    AJUSTAR COR DE FUNDO NO ARQUIVO DO BOOTSTRAP
+    background: url('../_imagens/backgroud.jpg');
+    background-repeat: repeat;
+    */
+    background-color: rgb(38, 38, 38);
+    color: rgba(255,255,255,1);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* esconde a barra de rolagem inferior, se retirar o -x esconderá as duas barras de rolagem*/
+}
+
+
+
+p {
+   font-family: Arial, sans-serif;
+   font-size: 10pt;
+   color: rgb(210,210,210);
+}
+
+
+.estilo{
+    background-color: rgba(0,0,0,0);
+    color: rgb(255,255,255);
+    font-family: Arial, sans-serif;
+    margin-bottom: auto;
+}
+
+a {
+   color: rgb(255,255,255);
+   text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: #0ed3b5;
+}
+
+
+input{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #ffffff ;
+    background-color: rgba(0,0,0,0);
+    border-bottom: solid #948f8f 2px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+input:hover, textarea:hover{
+    background-color: rgba(0,0,0,.5);
+}
+
+select {
+    background-color: rgba(0,0,0,0);
+    color: #ffffff ;
+    border: none;
+}
+option {
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff ;
+    border: none;
+}
+
+/*Edição de classes*/
+
+span.banco {
+    color: rgb(204, 204, 204);
+    font-size: 11pt;
+    font-weight: bold ;
+}
+
+.oc{
+    display: none;
+}
+
+.tema{
+    color: #0ed3b5;
+
+}
+
+
+/* Edição do CABEÇALHO */
+
+.cabecalho{
+    display: block;
+    position: relative;
+    float: right;
+    height: 40px;
+}
+
+.logo1 {
+    position: absolute;    
+    float: left;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url('../_imagens/Logo_FRC_1.png') no-repeat;
+    background-size: 120px;
+    margin: 10px 0 0 10px;
+}
+
+table td{
+    margin: 5px 3px 5px 3px ;
+    padding: 5px 3px 5px 3px;
+    border-left: 1px solid #666666 ;
+    border-bottom: 1px solid #666666 ;
+}
+
+/* Fim da edição do cabeçalho */
+/* Edição do RODAPÉ */
+footer#rodape {
+    display: block;
+    clear: both;
+    border-top: 1px solid #948f8f;
+    
+}
+
+footer#rodape p {
+    text-align: center;
+    font-size: 7pt;
+}
+
+footer#rodape a {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+      
+}
+  
+footer#rodape a:hover {
+    text-decoration: none;
+    color: #0ed3b5;
+}
+
+/* Fim da edição do RODAPÉ */

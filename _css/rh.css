@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+div#cad_user h2{
+    text-align: center;
+}
+
+div#cad_user p{
+    text-align: center;
+    
+}
+
+div#cad_user table{
+    margin: 0 auto 0 auto ;
+    border: none;
+}
+
+div#cad_user table td{
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #000\9;
+    border-left: none;
+}
+
+
+/* CORES PARA OS MÉDICOS */
+div.azulescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #070d48;
+    background-color: #070d48;
+    }
+
+div.rosaescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #480747;
+    background-color: #480747;
+}
+
+div.laranjaescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #892c03;
+    background-color: #892c03;
+}
+
+div.verdeescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #063e06;
+    background-color: #063e06;
+}
+
+div.amareloescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #3e3d06;
+    background-color: #3e3d06;
+}
+
+div.vermelhoescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #3e060a;
+    background-color: #3e060a;
+}
+
+div.musgoescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #063e21;
+    background-color: #063e21;
+}
+
+div.cinzaescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #121413;
+    background-color: #121413;
+}
+
+div.piscinaescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #051a1d;
+    background-color: #051a1d;
+}
+
+div.roxoescuro {
+    width:30px;
+    height:30px;
+    border: 6px solid; 
+    border-color: #1c051c;
+    background-color: #1c051c;
+}
